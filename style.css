@@ -1,0 +1,846 @@
+/* font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font poppins */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding-inline: 350px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    position: fixed;
+    top: 0;
+   background-color: white;
+   z-index: 20;
+}
+.navbar .navleft{
+    width: 12.3%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .navleft .logo{
+    width: 54px;
+    height: 60px;
+    background-image: url(./asset/logo_2022.avif);
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s;
+    margin-left: -10px;
+}
+.navbar .navleft .logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.navbar .navleft h1{
+    font-size: 13px;
+    color: rgb(22,26,31);
+    border-bottom: 2px solid rgb(59, 59, 59)  ;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.navbar .navleft h1:hover{
+    color: rgb(255,88,5);
+    border-bottom: 2px solid rgb(255,88,5)  ;
+}
+.navbar .navleft .arrow{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar .navleft .arrow i{
+    font-size: 22px;
+    color: rgb(255,88,5);
+    margin-left: 10px;
+}
+.navbar .navright{
+    width: 65%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 260px;
+}
+.navbar .navright h1,h2,h3,h4,h5,h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(61,65,82);
+}
+.navbar .navright h1:hover,
+.navbar .navright h2:hover,
+.navbar .navright h3:hover,
+.navbar .navright h4:hover,
+.navbar .navright h5:hover,
+.navbar .navright h6:hover
+{
+    color: rgb(255, 82, 0);
+}
+.navright .icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navright .icons i,
+.navright .icons span
+{
+    font-size: 20px;
+    color: rgb(89,92,96);
+    margin-right: 6px;
+}
+.navright .icons:hover i,
+.navright .icons:hover .material-symbols-outlined{
+    color: rgb(255, 82, 0);
+}
+#notorg{
+    color: rgb(89,92,96);
+}
+.newtext h1{
+    color: rgb(255, 167, 0);
+    font-size: 10px;
+    position: absolute;
+    right: 700px;
+    top: 25px;
+}
+/* navbar */
+/* main */
+.main{
+    width: 100%;
+    height: 3840px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+      /* div1 */
+.main .div1{
+    width: 1433px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .headingall{
+    font-size: 21px;
+    font-weight: 800;
+    color: rgb(22,26,31);
+    margin-top: 10px;
+    cursor: context-menu;
+}
+.main .div1 .allimgdiv1{
+    width: 1000%;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main .div1 .allimgdiv1 img{
+    width: 144px;
+    height: inherit;
+}
+ .headdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headdiv1 button{
+    width: 33px;
+    height: 33px;
+    border-radius:50% ;
+    border: none;
+    background-color: rgb(214,216,217);
+    margin-top: 10px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.headdiv1 i{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(57,60,65);
+}
+.dotdiv1{
+    width: 1433px;
+    height: 2px;
+    background-color: rgb(241, 238, 238);
+    margin-left: 12px;
+    margin-top: 30px;
+}
+        /* div1 */
+        /* div2 */
+.div2{
+    width: 1433px;
+    height: 380px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.div2 .allimgdiv2{
+    width: 3531px;
+    height: 284px;
+    margin-top: 15px;  
+    display: flex;
+}
+.div2 .allimgdiv2 .img2{
+    width: 310px;
+    height: 284px;
+    transition: 0.3s;
+}
+.div2 .allimgdiv2 .img2:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.div2 .allimgdiv2 .div2img1{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/1.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img2{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/3.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img3{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/4.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img4{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/2.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img5{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/6.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img6{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/5.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img7{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/7.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img8{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/10.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img9{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/9.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .div2img10{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+    background-image: url(./asset/11.avif);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    display: flex;
+    align-items: end;
+}
+.div2 .allimgdiv2 .img2 #inside{
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(236,236,237);
+    letter-spacing: -0.4px;
+    margin-left: 10px;
+}
+.div2 .allimgdiv2 .img2 h1{
+    font-size: 17px;
+    color: rgb(22,26,31);
+}
+.div2 .allimgdiv2 .img2 img{
+    width: 21px;
+    height: 21px;
+}
+.div2 .img2 .div2info{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.div2 .img2 .div2info p{
+    font-weight: 16px;
+    color: rgb(103,106,109);
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+.div2 .img2 .textall{
+    display: flex;
+    align-items: center;
+}
+.div2 .img2 .textall h3{
+    color: rgb(22,26,31);
+    font-weight: 600;
+}
+        /* div2 */
+        /* div3 */
+.div3{
+    width: 1419px;
+    height: 1242px;
+    padding-top: 30px;
+}
+.div3 .div3head{
+    font-size: 21px;
+    font-weight: 800;
+    color: rgb(22,26,31);
+    cursor: context-menu;
+}
+.div3 .allbutton{
+    width: 1000px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.div3 .allbutton .btn1{
+    width: 79px;
+    height: 38px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn2{
+    width: 94px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn3{
+    width: 105px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn4{
+    width: 120px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn5{
+    width: 103px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn6{
+    width: 81px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn7{
+    width: 63px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn8{
+    width: 122px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .allbutton .btn9{
+    width: 132px;
+    height: 36px;
+    border-radius:20px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+    border: none;
+      font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.div3 .alldish{
+    width: 1387px;
+    height: 1019px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.div3 .alldish .subdish{
+    width: 323px;
+    height: 318px;
+    transition: 0.3s;
+}
+.div3 .alldish .subdish:hover{
+    transform: scale(0.95);
+}
+.div3 .alldish .subdish .imgdish{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/01.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish2{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/02.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish3{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/03.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish4{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/04.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish5{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/05.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish6{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/06.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish7{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/07.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish8{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/08.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish9{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/09.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .alldish .subdish .imgdish10{
+    width: 323px;
+    height: 215px;
+    border-radius: 20px;
+    background-image: url(./asset/010.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.70) 0px -80px 36px -28px inset;
+    cursor:pointer;
+}
+.div3 .inside2{
+    font-size: 22px;
+    font-weight:800;
+    color: rgb(238,238,238);
+    letter-spacing: -0.4px;
+    margin-left: 10px;
+}
+.div3 .infodish h1{
+    font-size: 16px;
+}
+.div3 .infodish .lastinfo{
+    display: flex;
+    align-items: center;
+}
+.div3 .infodish .lastinfo  h3,
+.div3 .infodish .lastinfo  h5
+{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.div3 .infodish{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.div3 .infodish  p{
+    font-size: 14.6px;
+    color: rgb(103,106,109);
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+.div3 .last{
+    margin-right: 707px;
+}
+        /* div3 */
+.div3 .show{
+    width: 1387px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.div3 .show button{
+    width: 312px;
+    height: 53px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+}
+.main .dotdivtwo{
+    width: 1614px;
+    height: 2px;
+    background-color: rgb(241, 238, 238);
+    margin-top: 30px;
+    margin-left: -7.6%;
+}
+    /* div4 */
+.div4{
+    margin-top: 70px;
+    width: 1630px;
+    height: 213px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div4 h1{
+    font-size: 28px;
+    color: rgb(103,106,109);
+    margin-left: -550px;
+    margin-bottom: 10px;
+}
+.div4 p{
+    font-size: 14.3px;
+    color: rgb(103,106,109);
+}
+.div4 h5{
+    color: rgb(255,82,0);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-right: 1515px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+    /* div4 */
+    /* div5 */
+    .div5{
+        width: 1624px;
+        height: 251px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .div5 h1{
+        font-size: 24px;
+        color: rgb(22,26,52);
+    }
+    .div5 .subbtn{
+        width: 1624px;
+        height: 207px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+    .div5 button{
+        width: 374px;
+        height: 53px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border: none;
+        background: transparent;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    /* div5 */
+/* main */
+/* footer */
+.footer{
+    width: 100%;
+    height: 430px;
+    background-color: rgb(240,240,245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h1{
+    font-size: 16px;
+    color:black;
+}
+.footer .swiggylogo{
+    width: 250px;
+    height: 350px;
+    margin-right: 70px;
+}
+.footer p{
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer .company{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-right: 70px;
+}
+.footer .contact{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-right: 70px;
+}
+.contact .subcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: inherit;
+    height: 130px;
+}
+.footer .availabel{
+    width: 180px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -90px;
+    margin-right: 70px;
+}
+.footer .availabel button{
+    width: 120px;
+    height: 32px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.footer .sociallinks{
+    width: 180px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -90px;
+}
+.footer .sociallinks .subsocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: inherit;
+    height: 120px;
+}
+.footer .sociallinks .subsocial2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    width: inherit;
+}
+.footer .sociallinks .subsocial2 i{
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+    margin-right: 6px;
+    cursor: pointer;
+}
+/* footer */
+/* apps */
+.mainapps{
+    width: 100%;
+    height: 145px;
+    background-color: rgb(240,240,245);
+    display: flex;
+    justify-content: center;
+}
+.apps{
+    width: 1305px;
+    background-color: rgb(240,240,245);
+    height: 145px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apps img{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.apps h1{
+    font-size: 24px;
+    color: rgb(61,64,70);
+    cursor: context-menu;
+}
+/* apps */
